@@ -1,0 +1,26 @@
+$width: 400px;
+
+ .select-search {
+    width: $width;
+    position: relative;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.custom-option {
+    height: 36px;
+    padding: 5px;
+}
+
+span.left {
+    font-size: 1em;
+    font-weight: bolder;
+    width: $width / 3;
+}
+
+span.right {
+    width: $width *2 / 3;
+    font-size: 0.9rem;
+    text-align: right;
+    float: right;
+}
